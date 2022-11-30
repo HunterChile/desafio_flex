@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor_principal {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.contactos {
+
+    flex: 0 0 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactos_estado_usuario {
+    display: flex;
+    flex: 0 0 7.5%;
+    background-color: white;
+    justify-content: space-between;
+    
+    }
+
+.foto_de_perfil{
+    display: flex;
+    background-color: white;
+    }
+
+.foto_de_perfil img{
+    border-radius: 30px;
+    height: 60px;
+    margin: 10px;
+
+    }
+
+.usuario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    }
+
+
+.usuario h3{
+    font-family: roboto;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+.usuario p{
+    font-family: roboto;
+    margin-left: 5px;
+    font-weight: 400;
+
+}
+
+.iconos_usuario{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.mensaje{
+    margin-right: 5px;
+}
+
+.amburguesa{
+    margin-right: 5px;
+}
+
+.mensaje i{
+    font-size: 30px;
+    margin: 5px;
+}
+
+.amburguesa i{
+    font-size: 30px;
+    margin: 5px;
+}
+
+
+
+.contactos_nuevo_chat {
+    display: flex;
+    flex: 0 0 17.5%;
+    background-color: white;
+    align-content: center;
+    justify-content: center;
+
+
+}
+
+.nuevo_chat{
+    margin: 45px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+}
+
+
+
+.contactos_contactos {
+    flex: 1 0 0;
+}
+
+
+.principal {
+    background-color: #E8EBE4;
+    flex: 0 0 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal_cuerpo {
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.principal_texto {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.principal_texto h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+}
+
+.principal_texto p {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 1.5rem;
+}
+
+.principal_logo img {
+    width: 250px;
+}
